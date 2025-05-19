@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PokéBank</title>
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- Validate.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
+  <!-- jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    
+    <header>
+        <center>
+        <img src="img/PokeBank - Logo.png" width="400">
+        <p>¡El banco oficial del mundo Pokémon!</p>
+        </center>
+    </header>
+
+<div id="chartContainer" style="display: none; width: 600px; height: 400px; margin: 0 auto; text-align: center;">
+    <canvas id="transactionChart"></canvas>
+    <button id="backToMenu" style="display: none; margin-top: 10px; padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Volver al Menú
+    </button>
+</div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
